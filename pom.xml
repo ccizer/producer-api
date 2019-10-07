@@ -16,7 +16,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>producer</name>
     <description>Producer API for consumer driven contracts</description>
-    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
