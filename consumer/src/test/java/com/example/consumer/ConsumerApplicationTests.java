@@ -20,6 +20,7 @@ import static org.hamcrest.core.IsNull.notNullValue;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureStubRunner(stubsMode = StubRunnerProperties.StubsMode.REMOTE,
+        repositoryRoot = "http://172.17.0.3:8081/artifactory/libs-snapshot-local",
         ids = "com.ccizer:producer:+:stubs:9090"
 )
 public class ConsumerApplicationTests {
