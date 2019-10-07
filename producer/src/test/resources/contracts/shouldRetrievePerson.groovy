@@ -6,6 +6,9 @@ Contract.make {
     request {
         method GET()
         url "/api/hello"
+        headers { // (5)
+            contentType('application/json')
+        }
     }
 
     response {
@@ -14,5 +17,8 @@ Contract.make {
                 surname: "Cizer"
         ])
         status 200
+        headers { // (5)
+            contentType('application/json')
+        }
     }
 }

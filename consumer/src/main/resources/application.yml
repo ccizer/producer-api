@@ -2,3 +2,6 @@ server:
   port: 9091
   servlet:
     context-path: /api
+stubrunner:
+  username: admin
+  password: password
